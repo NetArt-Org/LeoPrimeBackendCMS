@@ -70,22 +70,22 @@ function App() {
     }, []);
 
     const collections = useMemo(() => [
-        demoCollection,
-        ctaCollection,
-        headerCollection,
-        footerCollection,
+        homeCollection,
         aboutCollection,
+        demoCollection,
         accountCollection,
         brokerCollection,
         contactCollection,
         depositCollection,
-        homeCollection,
         marginCollection,
         platformCollection,
         policyCollection,
         toolsCollection,
         tradingCollection,
-        whyleoprimeCollection
+        whyleoprimeCollection,
+        ctaCollection,
+        headerCollection,
+        footerCollection,
     ], []);
 
     const {
