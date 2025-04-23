@@ -103,6 +103,11 @@ export const accountCollection = buildCollection({
                         }
                     }
                 },
+                mobileHeading:{
+                    name: "Mobile Heading",
+                    dataType: "string",
+                    markdown:true
+                },
                 content: {
                     name: "Content",
                     dataType: "string",
